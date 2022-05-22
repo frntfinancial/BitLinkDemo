@@ -35,3 +35,5 @@ dependencies successfully. I can browse the nextjs app components and the bit li
 Even if I make a change to the component in base-ui, hot reloading works perfectly in the bit playground.
 How is bit solving this problem and how I can apply it so that it works in the running nextjs application as well so
 that I could test components in the nextjs project and also have changes reflected with hot reload?
+
+If bit playground can do this, nextjs app should also be able to do this. Where is the disconnect here? Please help:(
