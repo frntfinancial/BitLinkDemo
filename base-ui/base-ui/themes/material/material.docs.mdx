@@ -1,0 +1,22 @@
+---
+description: 'A Material Theme Provider component.'
+labels: []
+---
+
+import { MaterialThemeProvider } from './material';
+
+## Application Theme Provider
+
+A material ui theme provider for dark and light themes
+
+### Component usage
+```js
+<MaterialThemeProvider themeName="Dark">{children}</MaterialThemeProvider>
+```
+
+### Using props to customize the text
+
+Modify the text to see it change live:
+```js live
+<MaterialThemeProvider themeName="Dark">Test</MaterialThemeProvider>
+```

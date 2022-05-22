@@ -1,0 +1,91 @@
+/**
+ * MDC theme styles
+ * See: http://smacss.com/book/type-theme
+ */
+.mdc-card--outlined {
+  border-color: var(--mdc-theme-color-border);
+}
+.mdc-button--raised:not(:disabled), .mdc-button--unelevated:not(:disabled) {
+  color: #fff;
+}
+.mdc-button--raised.mdc-button--green:not(:disabled), .mdc-button--unelevated.mdc-button--green:not(:disabled) {
+  background-color: var(--mdc-theme-color-green);
+}
+.mdc-button--raised.mdc-button--red:not(:disabled), .mdc-button--unelevated.mdc-button--red:not(:disabled) {
+  background-color: var(--mdc-theme-color-red);
+}
+.mdc-drawer .mdc-list-item {
+  color: var(--mdc-theme-text-primary-on-background);
+}
+.mdc-select:not(.mdc-select--disabled) {
+  background-color: inherit;
+}
+.mdc-select--disabled {
+  background-color: inherit;
+}
+.mdc-select:not(.mdc-select--disabled):not(.mdc-select--invalid) .mdc-floating-label {
+  color: var(--mdc-theme-color-label);
+}
+.mdc-select:not(.mdc-select--disabled) .mdc-select__native-control, .mdc-select:not(.mdc-select--disabled) .mdc-select__selected-text {
+  color: var(--mdc-theme-text-primary-on-background);
+}
+.mdc-text-field--disabled {
+  background-color: inherit;
+}
+.mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--invalid) .mdc-floating-label {
+  color: var(--mdc-theme-color-label);
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+  color: var(--mdc-theme-text-primary-on-background);
+}
+.mdc-drawer .mdc-list-item__graphic {
+  color: var(--mdc-theme-color-label);
+}
+.mdc-drawer .mdc-list-group__subheader {
+  color: var(--mdc-theme-color-label);
+}
+.mdc-menu .mdc-list {
+  color: var(--mdc-theme-text-primary-on-background);
+}
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: var(--mdc-theme-primary);
+}
+.mdc-button--google:not(:disabled) {
+  background-color: var(--mdc-theme-color-google);
+  color: #fff;
+}
+.mdc-button--slack:not(:disabled) {
+  background-color: var(--mdc-theme-color-slack);
+  color: #000;
+}
+.mdc-text-field:not(.mdc-text-field--disabled)+.mdc-text-field-helper-text.mdc-text-field-helper-text--validation-msg {
+  color: var(--mdc-theme-color-red);
+}
+.mdc-button {
+  height: auto;
+  min-height: 36px;
+}
+.mdc-button__label {
+  width: 100%;
+}
+/*.mdc-button--raised, .mdc-button--unelevated, .mdc-button--outlined {
+  min-width: 192px;
+}*/
+.mdc-button--link {
+  padding: 0;
+  min-width: initial;
+  height: initial;
+  min-height: initial;
+  overflow: initial;
+  vertical-align: initial;
+  border-radius: initial;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: none;
+}
+.mdc-button.mdc-button--link::before, .mdc-button.mdc-button--link::after {
+  background-color: transparent;
+}
+.mdc-button--outlined {
+  border-width: 1px;
+}
