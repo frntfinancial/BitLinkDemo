@@ -24,9 +24,8 @@ npm run dev
 
 OPEN localhost:3000
 
-see error: 'TypeError: Cannot read property 'useContext' of null'. Why is this occuring? There seems to be an issue
-when a component reference third layer dependencies, as these appears to work fine in the node js application
-if I just wish to render a simple component with no third layer dependencies.
+see error: 'TypeError: Cannot read property 'useContext' of null'. Why is this occurring? There seems to be an issue
+when a component reference third layer dependencies, as this appears to work fine in the node js application if I just wish to render a simple component with no third layer dependencies.
 
 Now stop the nodejs application and instead run "bit start". Observe the playground loads correctly, nextjs
 components are rendered correctly along with their bit linked children.
